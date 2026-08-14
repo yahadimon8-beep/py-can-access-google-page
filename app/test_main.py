@@ -1,6 +1,5 @@
 from app.main import can_access_google_page
 from typing import Any
-import pytest
 
 
 def test_can_access_google_page_accessible(mocker: Any) -> None:
